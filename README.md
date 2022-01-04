@@ -8,3 +8,6 @@
 -    <?extends type> kiểu dữ liệu được đưa vào phải là đối tượng của lớp con.
 -    <?super type> chấp nhận kiểu dữ liệu được đưa vào phải là đối tượng cha của lớp thành phần.
 #### 3 ưu điểm chính trong generic kotlin: 
+- Kiểu đối tượng an toàn:
+- Ko cần phải ép kiểu.
+- Kiểm tra ngay lúc biên dịch.
