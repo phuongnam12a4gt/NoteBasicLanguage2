@@ -42,4 +42,7 @@ Vậy thằng MutableMap khác Map ở điểm nào quay trở lai thằng Map s
 - partition là lọc phần chia ra phần còn lại và phần bị lọc.
 - any:trả về true ,ít nhất 1 thành phần được chỉ định.none;trả về true nếu ko có bất cứ thành phần chỉ đinh.all.nếu tất cả thành phần khớp theo chỉ đinh.
 #### Hàm Chuyển đổi:(transfomation):
-- Map:Lấy giá trị kết quả để đẩy vào 1 collection.
+- Map:Lấy giá trị kết quả tính toán để đẩy vào 1 collection.có thể sử dụng hàm mapIndex nếu liên quan tới các chỉ mục.
+- Zip: sẽ zip 2 cái collection thành 1 cặp tương ứng với vị trí index của nó .Kích cỡ của 2 collection khác nhau thì nó sẽ zip về cái có kích cỡ nhỏ hơn.Khi zip nó sẽ trả về 1 
+danh sách List các cặp Pair.
+-
