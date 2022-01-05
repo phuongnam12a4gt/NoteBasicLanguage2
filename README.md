@@ -24,4 +24,8 @@ luôn là những hàm trả về kiểu dữ liệu chung chung đó.///dạ c�
 - Loại chỉ đọc đó là convariant tất cả trong cái lớp của nó có  định danh cho kiểu dữ liệu chung chung với từ khóa là out.
 ##### Chúng ta cần quan tâm cái gì trong collection?:
 - thì theo em ta cần quan tâm tới 3 thứ :List,Set,Map và trước khi tìm hiểu 3 thứ đó ta cần tìm hiểu về về thằng interface Collection<T> cái thằng này chính là interface mà thằng set và thằng list có kế thừa.
--Interface Collection<T> là :Nó sẽ làm gì nó sẽ truy vấn kích cỡ ,nó kiểm tra kích cở của collection này,......
+- Interface Collection<T> là :Nó sẽ làm gì nó sẽ truy vấn kích cỡ ,nó kiểm tra kích cở của collection này,......
+- Interface Interable:Thằng này là thằng Collection nó sẽ triển khai và nó sẽ trả về 1 hàm cái hàm đó sẽ trả về 1  interface interator ,interface là convariant.Và cái thằng interator đó được trả ra để duyệt thành phần của chuổi collection được đẩy vào.Và thằng interator nó sẽ có 2 hàm ,1 hàm tên là next ,hàm này được dùng để trả về thành phần đó 
+và 1 hàm tên hashNext để kiểm ra.
+#### Dừng lại tại đây quay lại những bộ collection cơ bản:
+##### List:
