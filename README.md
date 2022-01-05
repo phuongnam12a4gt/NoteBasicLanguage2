@@ -12,4 +12,8 @@
 - Ko cần phải ép kiểu.
 - Kiểm tra ngay lúc biên dịch.
 #### Kotlin:
-- Nó không có các kí hiệu đại diên wildcard mà thay vào đó nó cần site variance và thứ 2 là type projections.
+- Nó không có các kí hiệu đại diên wildcard mà thay vào đó nó cần declaration-site variance và thứ 2 là type projections.
+##### Variance:
+- Để khai báo thì ta cần dùng từ khóa in và out để giới hạn kiểu.
+- Nếu chúng ta sử dụng với chú thích là out trong trong kiểu dữ liệu chung chung.
+
