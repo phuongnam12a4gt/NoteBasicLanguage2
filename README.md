@@ -11,3 +11,5 @@
 - Kiểu đối tượng an toàn:
 - Ko cần phải ép kiểu.
 - Kiểm tra ngay lúc biên dịch.
+#### Kotlin:
+- Nó không có các kí hiệu đại diên wildcard mà thay vào đó nó cần site variance và thứ 2 là type projections.
