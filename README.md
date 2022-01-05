@@ -15,7 +15,7 @@
 - Nó không có các kí hiệu đại diên wildcard mà thay vào đó nó cần declaration-site variance và thứ 2 là type projections.
 ##### Variance:
 - Để khai báo thì ta cần dùng từ khóa in và out để giới hạn kiểu.
-- Nếu chúng ta sử dụng với chú thích là out trong trong kiểu dữ liệu chung chung.Thì theo như cách gọi nó gọi là 1 convariant đối kiểu dữ liệu chung chung đó.Tức là 1 lớp hoặc 1 interface mà có cái chú thích đó nên sản xuất(producer) ra các kiểu dữ liệu chung chung.Nếu để ý rằng mọi hàm trong kotlin chỉ có out thì chắc chắn trong những cái hàm mà nó định nghĩa luôn.
+- Nếu chúng ta sử dụng với chú thích là out trong trong kiểu dữ liệu chung chung.Thì theo như cách gọi nó gọi là 1 convariant đối kiểu dữ liệu chung chung đó.Tức là 1 lớp hoặc 1 interface mà có cái chú thích đó nên sản xuất(producer) ra các kiểu dữ liệu chung chung.Nếu để ý rằng mọi lớp ,interface trong kotlin chỉ có out thì chắc chắn trong những cái hàm mà nó định nghĩa luôn.
 luôn là những hàm trả về kiểu dữ liệu chung chung đó.///dạ còn tiếp ,tiếp tục tìm hiểu.
-- Nếu chúng ta sử dụng với chú thích là in trong kiêu dữ liệu chung chung.Thì theo như cách gọi nó gọi là là 1 contravariant đối với kiểu dữ liệu  chung chung đó.Tức là 1 lớp hoăc 1 interface mà có cái chú thích đó nó nên tiêu thu(consumer)./// dạ còn tiếp ,tiếp tục tìm hiểu.
+- Nếu chúng ta sử dụng với chú thích là in trong kiêu dữ liệu chung chung.Thì theo như cách gọi nó gọi là là 1 contravariant đối với kiểu dữ liệu  chung chung đó.Tức là 1 lớp hoăc 1 interface mà có cái chú thích đó nó nên tiêu thu(consumer).Và nếu để ý rằng thì mọi lớp,hay interface in kotlin mà có chú thích là in thì khi đó những cái hàm trong đó luôn sử dụng cái kiểu dữ liệu chung chung đó./// dạ còn tiếp ,tiếp tục tìm hiểu.
 ##### Type projection:
