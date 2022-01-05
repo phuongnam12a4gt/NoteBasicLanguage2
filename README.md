@@ -34,4 +34,5 @@ và được add ,và hổ trợ thêm các thành phần .Vì ta thấy rằng 
 ##### Set vs MutableSet:
 - Set tương tự như với List nhưng nó kế thừa Collection.Nhưng ở đây nó sẽ các thành phần được add vào nó không đúng thứ tự khi có sự trùng lặp.và khi truy cập các thành phần nó phải thông qua thằng interator.Chứ nó ko có như thằng list.Vậy MutableSet là gì. củng có thể thêm xóa bớt thành phần.Cứ nhớ là thằng này nó implement thằng Set,MutableCollection.
 #### Map vs MutableMap:
-Để tạo 1 map thì ta dùng hàm map of.Mà thằng of nó cần 1 cặp Pair đưa vô vậy rõ ràng bây giờ em sẽ nói thằng pair trước.Thằng Pair này 
+Để tạo 1 map thì ta dùng hàm map of.Mà thằng Mapof nó cần 1 cặp Pair đưa vô vậy rõ ràng bây giờ em sẽ nói thằng pair trước.Thằng Pair này sẽ lưu trử giá trị first vs giá trị second.Để đưa vô trong cái hàm mapof cần dùng 1 hàm extension tên là to thì nó trả về thằng  cặp pair.Vậy Map lúc đó nó sẽ lưu trử nó củng là thằng interface và trả về số lượng key vs value.Trả về true nếu map rỗng ,trả về true nếu map chứa key,trả về tập set....
+Vậy thằng MutableMap khác Map ở điểm nào quay trở lai thằng Map sẽ lưu trử theo cặp Key và Value.Thì thằng MutableMap nó củng vậy tương tự như vậy nhưng nó có thêm chức năng thêm củng như xóa,clear thành phần ,...
