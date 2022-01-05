@@ -38,3 +38,7 @@ và được add ,và hổ trợ thêm các thành phần .Vì ta thấy rằng 
 Vậy thằng MutableMap khác Map ở điểm nào quay trở lai thằng Map sẽ lưu trử theo cặp Key và Value.Thì thằng MutableMap nó củng vậy tương tự như vậy nhưng nó có thêm chức năng thêm củng như xóa,clear thành phần ,...
 ### Một số hàm phổ biến được sử dụng trong Collection:
 #### Hàm lọc:
+- filter:là lọc theo chỉ định,
+- partition là lọc phần chia ra phần còn lại và phần bị lọc.
+- any:trả về true ,ít nhất 1 thành phần được chỉ định.none;trả về true nếu ko có bất cứ thành phần chỉ đinh.all.nếu tất cả thành phần khớp theo chỉ đinh.
+#### Hàm Chuyển đổi:(transfomation):
