@@ -19,3 +19,9 @@
 luôn là những hàm trả về kiểu dữ liệu chung chung đó.///dạ còn tiếp ,tiếp tục tìm hiểu.
 - Nếu chúng ta sử dụng với chú thích là in trong kiêu dữ liệu chung chung.Thì theo như cách gọi nó gọi là là 1 contravariant đối với kiểu dữ liệu  chung chung đó.Tức là 1 lớp hoăc 1 interface mà có cái chú thích đó nó nên tiêu thu(consumer).Và nếu để ý rằng thì mọi lớp,hay interface in kotlin mà có chú thích là in thì khi đó những cái hàm trong đó luôn sử dụng cái kiểu dữ liệu chung chung đó./// dạ còn tiếp ,tiếp tục tìm hiểu.
 ##### Type projection:
+#### Collection in Kotlin:
+- Có 1 cặp interface đại diện cho loại collection:1 loại chỉ để đọc ,còn 1 loại được mở rộng từ 1 loại tương ứng chỉ đọc đó và có thêm 1 số :thêm thành phần ,cập nhật thành phần và xóa thành phần.
+- Loại chỉ đọc đó là convariant tất cả trong cái lớp của nó có  định danh cho kiểu dữ liệu chung chung với từ khóa là out.
+##### Chúng ta cần quan tâm cái gì trong collection?:
+- thì theo em ta cần quan tâm tới 3 thứ :List,Set,Map và trước khi tìm hiểu 3 thứ đó ta cần tìm hiểu về về thằng interface Collection<T> cái thằng này chính là interface mà thằng set và thằng list có kế thừa.
+-Interface Collection<T> là :Nó sẽ làm gì nó sẽ truy vấn kích cỡ ,nó kiểm tra kích cở của collection này,......
