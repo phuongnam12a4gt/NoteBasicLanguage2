@@ -42,3 +42,4 @@ Vậy thằng MutableMap khác Map ở điểm nào quay trở lai thằng Map s
 - partition là lọc phần chia ra phần còn lại và phần bị lọc.
 - any:trả về true ,ít nhất 1 thành phần được chỉ định.none;trả về true nếu ko có bất cứ thành phần chỉ đinh.all.nếu tất cả thành phần khớp theo chỉ đinh.
 #### Hàm Chuyển đổi:(transfomation):
+- Map:Lấy giá trị kết quả để đẩy vào 1 collection.
