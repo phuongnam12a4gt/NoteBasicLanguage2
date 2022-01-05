@@ -1,4 +1,4 @@
-# NoteBasicLanguage2
+# NoteBasicLanguage2:
 ## Generic:
 ### Java:
 -  Generic là cách để xác định kiểu dữ liệu cho phương thức hoặc biến trong 1 ngữ cảnh cụ thể.
@@ -15,5 +15,7 @@
 - Nó không có các kí hiệu đại diên wildcard mà thay vào đó nó cần declaration-site variance và thứ 2 là type projections.
 ##### Variance:
 - Để khai báo thì ta cần dùng từ khóa in và out để giới hạn kiểu.
-- Nếu chúng ta sử dụng với chú thích là out trong trong kiểu dữ liệu chung chung.
-
+- Nếu chúng ta sử dụng với chú thích là out trong trong kiểu dữ liệu chung chung.Thì theo như cách gọi nó gọi là 1 convariant đối kiểu dữ liệu chung chung đó.Tức là 1 lớp hoặc 1 interface mà có cái chú thích đó nên sản xuất ra các kiểu dữ liệu chung chung.
+- Ví dụ:interface Source<out T> {
+    fun nextT():T
+}
