@@ -31,4 +31,6 @@ và 1 hàm tên hashNext để kiểm ra.
 ##### List vs MutableList:
 Để khởi tạo 1 list ta có thể dùng hàm listOf .Hàm listOf là gì thì có mấy cái code phía trong em chưa hiểu rõ ,nhưng cứ tạm hiểu tới đây là nó tạo ra List.Vậy chúng ta sẽ nhìn vào interface List thì ta thấy rằng nó hàm get để lấy thành phần tại vị trí chỉ định này.Rồi hắn có nói rằng đây là 1 bộ thành phần các chỉ mục có thứ tự.Và tóm lại nói nó chỉ đọc.Nó sẽ đi kèm với nữa là MutableList để giải quyết vấn đề chỉ đọc đó .Vậy MutableList là interface nó sẽ triển khai của thằng List thì nó còn triển khai cùa thằng MutableCollection.Mà ta biết rằng thằng MutableCollection nó triển khai từ thằng collection để giải quyết vấn đề chỉ đọc.Cụ thể trong thằng MutableCollection sẽ có thêm hàm add ,remove các thành phần.Quay lại với thằng MutableList thì chắc nó sẽ có thằng add vs thằng remove.Củng như add và remove tại các vị trí chỉ định.Nó củng là bộ sưu tập có chỉ mục
 và được add ,và hổ trợ thêm các thành phần .Vì ta thấy rằng trong mọi kiểu dữ liệu chung chung mà nó có thì để tên làm kiểu dữ liệu chung chung.Vậy thằng MutableCollection là invariant.MutableList củng là invariant.
-##### Set:
+##### Set vs MutableSet:
+- Set tương tự như với List nhưng nó kế thừa Collection.Nhưng ở đây nó sẽ các thành phần được add vào nó không đúng thứ tự và thứ 2 là nó không được trùng lặp.và khi truy cập các thành phần nó phải thông qua thằng interator.Vậy MutableSet là gì. củng có thể thêm xóa bớt thành phần.Cứ nhớ là thằng này nó implement thằng Set,MutableCollection.
+#### Map vs MutableMap:
